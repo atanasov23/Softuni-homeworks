@@ -1,0 +1,19 @@
+function sumEvenNumbers(arr){
+
+    let sum = 0;
+
+    for(let i = 0; i <= arr.length - 1; i++){
+
+        if(Number(arr[i]) % 2 === 0){
+
+            sum += Number(arr[i]);
+
+        }
+
+    }
+
+    console.log(sum);
+
+}
+
+sumEvenNumbers(['2','4','6','8','10']);
