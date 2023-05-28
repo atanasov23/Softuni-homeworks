@@ -1,0 +1,38 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica');
+
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 3em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+}
+
+
+blockquote{
+    padding: 1em;
+    border-left: 3px solid rgb(221,221,221);
+    font-style: italic;
+}
+
+table, th, tr, td{
+    border: 1px solid rgb(221,221,221);
+}
+
+table th{
+    background-color: rgb(221,221,221);
+}
+
+table { 
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+ }
+
+ tr:nth-child(even) {
+    background-color: rgb(244, 243, 243);
+  }
