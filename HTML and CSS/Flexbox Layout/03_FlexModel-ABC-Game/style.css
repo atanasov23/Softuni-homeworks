@@ -1,0 +1,33 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-2');
+
+
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    max-width: 15vw;
+    height: 35rem;
+}
+
+span{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.container :nth-child(1){ order: 2;}
+.container :nth-child(2){ order: 2;}
+.container :nth-child(3){ order: 3;}
+.container :nth-child(4){ order: 4;}
+.container :nth-child(5){ order: 5;}
+.container :nth-child(6){ order: 4;}
+.container :nth-child(7){ order: 3;}
+.container :nth-child(8){ order: 8;}
+.container :nth-child(9){ order: 10;}
+.container :nth-child(10){ order: 10;}
+.container :nth-child(11){ order: 1;}
+.container :nth-child(12){ order: 3;}
