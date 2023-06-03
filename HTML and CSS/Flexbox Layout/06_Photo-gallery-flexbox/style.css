@@ -2,19 +2,21 @@ body{
     display: flex;
 }
 
-
-ul{
-    list-style-type: none;
+.gallery{
+    display: flex;
 }
 
-.gallery li{
+li{
     border: 10px solid black;
     display: flex;
     margin: 2em;
 }
 
-.gallery ul{
+ul{
     display: flex;
+    list-style-type: none;
     justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 4;
 }
 
