@@ -1,0 +1,20 @@
+body{
+    display: flex;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.gallery li{
+    border: 10px solid black;
+    display: flex;
+    margin: 2em;
+}
+
+.gallery ul{
+    display: flex;
+    justify-content: space-between;
+}
+
