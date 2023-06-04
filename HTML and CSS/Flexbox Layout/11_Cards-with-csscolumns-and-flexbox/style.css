@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.header {
+    width: 70%;
+    margin: auto;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card section p {
+
+    padding: 1em;
+}
+
+.card footer {
+    border-top: 1px solid rgb(222, 213, 213);
+    padding: 1em;
+}
+
+.card {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+
+.cards-layout {
+
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.cards-layout.flex {
+    flex-wrap: wrap;
+}
+
+.cards-layout.masonry{
+    display: grid;
+ grid-template-rows: masonry;
+}
+
+
+
+
