@@ -1,0 +1,58 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.viewport{
+    position: relative;
+    height: 50%;
+    overflow: hidden;
+}
+
+.one {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,204,123,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.two {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,47,5,1) 0%, rgba(73,126,217,1) 0%, rgba(172,38,160,1) 50%, rgba(172,74,231,1) 72%, rgba(120,92,200,1) 100%, rgba(11,131,133,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.card{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    overflow: hidden;
+}
+
+.card img{
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.viewport.two .card{
+    width: auto;
+    height: 90%;
+}
+
+.viewport.two .card img{
+    width: auto;
+    height: 100%;
+}
+
+.icon{
+    position: absolute;
+    color: aliceblue;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
