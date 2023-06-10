@@ -50,9 +50,9 @@ body{
 .icon{
     position: absolute;
     color: aliceblue;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    left: 80%;
+    top: 80%;
+    transform: translate(-50%, -60%);
 }
 
 
