@@ -1,0 +1,30 @@
+@media (max-width: 500px) {
+
+    .user-icon {
+        position: absolute;
+        left: 0;
+        top: 22px;
+    }
+
+    .pass-icon {
+        position: absolute;
+        left: 0;
+        top: 102px;
+    }
+
+
+    .login {
+        width: 400px;
+        height: 250px;
+    }
+
+    input[type=text] {
+        width: 330px;
+    }
+
+    #password {
+        position: relative;
+        left: 0px;
+    }
+
+}
