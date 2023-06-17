@@ -1,0 +1,69 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+    grid-template-columns: 100px auto;
+    gap: 10px;
+}
+
+nav{
+    display: inline-block;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+nav li{
+    display: inline;
+    list-style: none;
+}
+
+nav li a{
+    display: inline;
+    text-decoration: none;
+    color: rgb(53, 100, 153);
+    padding: 5px 15px;
+
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+}
+
+header, aside, main, footer{
+    border-radius: 3px;
+    background: rgb(181, 216, 255);
+    padding: 5px 10px;
+}
+
+header h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+aside ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+}
+
+a{
+    display: block;
+    padding: 5px 0px;
+    color:  rgb(86, 40, 129);
+    text-decoration: none;
+}
